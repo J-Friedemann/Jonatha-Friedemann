@@ -6,11 +6,14 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Jonatha Friedemann",
   description: "Portfólio pessoal",
+  icons: {
+    icon: ["/favicon.png"],
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body className={inter.className}>{children}</body>
     </html>
   );
