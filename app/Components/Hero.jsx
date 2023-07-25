@@ -10,7 +10,7 @@ const Hero = () => {
         <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl  font-playfair bg-gradient-to-t from-enfase1 to-enfase2 text-transparent bg-clip-text font-bold tracking-wide">
           &lt;JONATHA FRIEDEMANN/&gt;
         </h1>
-        <h2 className="text-lg xs:text-xl sm:text-2xl md:text-3xl text-textLight font-playfair lg:text-4xl">
+        <h2 className="text-lg xs:text-xl sm:text-2xl md:text-3xl text-textLight font-playfair lg:text-4xl font-bold">
           Front-End Developer
         </h2>
         <div className="flex gap-2 md:gap-4 lg:mt-40 ">

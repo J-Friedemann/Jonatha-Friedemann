@@ -13,7 +13,7 @@ const TecnologiaCard = ({ tecnologia, svg }) => {
           height={80}
           alt=""
         />
-        <p className="text-textLight">{tecnologia}</p>
+        <p className="text-textLight font-semibold">{tecnologia}</p>
       </div>
     </div>
   );

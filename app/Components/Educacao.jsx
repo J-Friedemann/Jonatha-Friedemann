@@ -19,7 +19,7 @@ const Educacao = () => {
             height={36}
             alt=""
           />
-          <h2 className="text-textLight text-lg sm:text-xl md:text-2xl lg:text-3xl sm:col-span-5">
+          <h2 className="text-textLight text-lg sm:text-xl md:text-2xl lg:text-3xl sm:col-span-5 font-semibold ">
             Bacharel em Sistemas de Informação
           </h2>
           <div className="text-textLight flex divide-x-2 divide-enfase1/20 text-sm sm:text-base md:text-lg lg:text-xl sm:col-start-2 sm:col-span-6 sm:justify-start">
@@ -35,7 +35,7 @@ const Educacao = () => {
             height={36}
             alt=""
           />
-          <h2 className="text-textLight text-lg sm:text-xl md:text-2xl lg:text-3xl sm:col-span-5">
+          <h2 className="text-textLight text-lg sm:text-xl md:text-2xl lg:text-3xl sm:col-span-5 font-semibold">
             Inglês
           </h2>
           <div className="text-textLight flex divide-x-2 divide-enfase1/20 text-sm sm:text-base md:text-lg lg:text-xl sm:col-start-2 sm:col-span-6 sm:justify-start">
