@@ -35,53 +35,51 @@ const Header = () => {
               : " invisible h-0 overflow-auto"
           } divide-y divide-slate-900 text-center sm:left-0 sm:content-center sm:flex sm:top-0 sm:items-center sm:w-auto sm:relative sm:h-auto sm:visible text-xl md:text-2xl lg:text-3xl sm:divide-y-0 sm::bg-inherit`}
         >
-          <li className="py-4 mx-4 sm:py-0 sm:p-4 sm:m-1 hover:bg-slate-900 sm:hover:bg-inherit cursor-pointer">
-            <Link
-              spy={true}
-              smooth={true}
-              offset={-150}
-              duration={500}
-              to="sobre"
-              className="border-b-2  hover:border-enfase1  border-transparent box-border"
-              onClick={() => setOpen(false)}
-            >
-              Sobre
-            </Link>
-          </li>
-          <li className="py-4 mx-4 sm:py-0 sm:p-4 sm:m-1 hover:bg-slate-900 sm:hover:bg-inherit cursor-pointer">
+          <Link
+            spy={true}
+            smooth={true}
+            offset={-150}
+            duration={500}
+            to="sobre"
+            className="py-4 mx-4 sm:py-0 sm:p-4 sm:m-1 hover:bg-slate-900 sm:hover:bg-inherit cursor-pointer  sm:border-b-2  sm:hover:border-enfase1  sm:border-transparent sm:box-border block"
+            onClick={() => setOpen(false)}
+          >
+            Sobre
+          </Link>
+          <li>
             <Link
               spy={true}
               smooth={true}
               offset={-100}
               duration={500}
               to="tecnologias"
-              className="border-b-2  hover:border-enfase1  border-transparent box-border"
+              className="py-4 mx-4 sm:py-0 sm:p-4 sm:m-1 hover:bg-slate-900 sm:hover:bg-inherit cursor-pointer  sm:border-b-2  sm:hover:border-enfase1  sm:border-transparent sm:box-border block"
               onClick={() => setOpen(false)}
             >
               Tecnologias
             </Link>
           </li>
-          <li className="py-4 mx-4 sm:py-0 sm:p-4 sm:m-1 hover:bg-slate-900 sm:hover:bg-inherit cursor-pointer">
+          <li>
             <Link
               spy={true}
               smooth={true}
               offset={-100}
               duration={500}
               to="projetos"
-              className="border-b-2  hover:border-enfase1  border-transparent box-border"
+              className="py-4 mx-4 sm:py-0 sm:p-4 sm:m-1 hover:bg-slate-900 sm:hover:bg-inherit cursor-pointer  sm:border-b-2  sm:hover:border-enfase1  sm:border-transparent sm:box-border block"
               onClick={() => setOpen(false)}
             >
               Projetos
             </Link>
           </li>
-          <li className="py-4 mx-4 sm:py-0 sm:p-4 sm:m-1 hover:bg-slate-900 sm:hover:bg-inherit cursor-pointer ">
+          <li>
             <Link
               spy={true}
               smooth={true}
               offset={-100}
               duration={500}
               to="educacao"
-              className="border-b-2  hover:border-enfase1  border-transparent box-border"
+              className="py-4 mx-4 sm:py-0 sm:p-4 sm:m-1 hover:bg-slate-900 sm:hover:bg-inherit cursor-pointer  sm:border-b-2  sm:hover:border-enfase1  sm:border-transparent sm:box-border block"
               onClick={() => setOpen(false)}
             >
               Educação
