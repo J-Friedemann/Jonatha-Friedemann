@@ -1,6 +1,5 @@
 import React from "react";
 import Titulo from "./Layout/Titulo";
-import Image from "next/image";
 import { Projeto } from "./Layout/Projeto/Projeto";
 import PageAnimation from "./Assets/PageAnimation";
 
@@ -15,6 +14,9 @@ const Projetos = () => {
         <Projeto.Container>
           <Projeto.Imagem imagem="/projetos/move-home.png" />
           <Projeto.Sobre>
+            <span className="text-sm text-slate-500 col-span-2">
+              Projeto em construção!
+            </span>
             <Projeto.Titulo>Move</Projeto.Titulo>
             <Projeto.Descricao>
               Site institucional da empresa, apresentando seus mais diversos

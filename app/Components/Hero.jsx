@@ -19,7 +19,7 @@ const Hero = () => {
             target="_blank"
           >
             <Image
-              className="w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              className="w-10 h-10 sm:w-12 sm:h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 transition ease-in-out hover:-translate-y-1 hover:scale-110"
               src="/hero/logo-linkedin.svg"
               height={80}
               width={80}
@@ -28,7 +28,7 @@ const Hero = () => {
           </Link>
           <Link href="https://github.com/J-Friedemann" target="_blank">
             <Image
-              className="w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              className="w-10 h-10 sm:w-12 sm:h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 transition ease-in-out hover:-translate-y-1 hover:scale-110"
               src="/hero/logo-github.svg"
               height={80}
               width={80}
