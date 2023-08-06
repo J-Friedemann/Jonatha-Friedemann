@@ -15,7 +15,7 @@ const Hero = () => {
         </h2>
         <div className="flex gap-2 md:gap-4 lg:mt-40 ">
           <Link
-            href="https://www.linkedin.com/in/jonatha-friedemann-339282283/ "
+            href="https://www.linkedin.com/in/jonatha-friedemann/"
             target="_blank"
           >
             <Image
