@@ -39,7 +39,7 @@ const Educacao = () => {
             Inglês
           </h2>
           <div className="text-textLight flex divide-x-2 divide-enfase1/20 text-sm sm:text-base md:text-lg lg:text-xl sm:col-start-2 sm:col-span-6 sm:justify-start">
-            <p className="pr-4">A2</p>
+            <p className="pr-4">A3</p>
             <p className="pl-4">Básico</p>
           </div>
         </div>
