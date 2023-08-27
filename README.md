@@ -1,10 +1,8 @@
-# Portfolio
+# Portfólio
 
 [![Demo](https://img.shields.io/website?label=Demo&style=for-the-badge&url=https://sujeitoprogramador.com/)](https://jonatha-friedemann.vercel.app/)
 
 ![Preview](./public/hero.png)
-
-Portfólio pessoal
 
 ## Objetivo
 
